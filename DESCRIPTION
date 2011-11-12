@@ -1,0 +1,11 @@
+Package: seqsei
+Version: 0.0-1
+Date: 2011-11-11
+Title: seqsei -- functional prediction for genes & non-coding elements via RNA-seq & other data
+Author: Cory Giles <cory.b.giles@gmail.com>
+Maintainer: Cory Giles <cory.b.giles@gmail.com>
+Depends: R (>= 2.13.0), SRAdb, ROCR, org.Hs.eg.db, GO.db, plyr
+SystemRequirements: bowtie, NCBI sra-toolkit
+Description: This package predicts functional annotations (e.g. GO, KEGG, etc.) for genes and non-coding elements by integrating a variety of data, including an RNAseq meta-analysis.
+License: GPL (>= 2)
+URL: http://wren.omrf.org/, http://corygil.es/
